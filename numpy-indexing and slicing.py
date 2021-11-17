@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
+# Example 1: Slicing 
 
 #slicing the sequence 
 import numpy as np 
@@ -11,8 +7,8 @@ s = slice(2,9,2)
 print (a[s])
 
 
-# In[9]:
 
+# Example 2:
 
 #using only one parameter 
 import numpy as np 
@@ -21,9 +17,9 @@ b = a[2:9:2]
 print (b)
 
 
-# In[11]:
 
-
+Example 3:
+  
 # slice single item 
 import numpy as np
 a = np.arange(10) 
@@ -31,8 +27,8 @@ b = a[5]
 print (b)
 
 
-# In[13]:
 
+# Example 4:
 
 # slice items starting from index 
 import numpy as np 
@@ -40,8 +36,8 @@ a = np.arange(10)
 print (a[3:])
 
 
-# In[16]:
 
+# Example 5:
 
 # slice items between indexes 
 import numpy as np 
@@ -49,8 +45,8 @@ a = np.arange(10)
 print (a[3:6])
 
 
-# In[21]:
 
+# Example 6:
 
 import numpy as np 
 a = np.array([[1,2,3],[3,4,5],[4,5,6],[5,6,7]]) 
@@ -61,8 +57,8 @@ print ('Now we will slice the array from the index a[2:]:' )
 print (a[2:])
 
 
-# In[27]:
 
+# Example 7:
 
 # array to begin with 
 import numpy as np 
