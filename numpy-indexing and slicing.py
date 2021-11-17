@@ -18,7 +18,7 @@ print (b)
 
 
 
-Example 3:
+# Example 3:
   
 # slice single item 
 import numpy as np
