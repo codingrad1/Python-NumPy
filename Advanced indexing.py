@@ -52,7 +52,7 @@ import numpy as np
 
 a = np.array([np.nan, 1, 21, np.nan, 3, 51, 64]) 
 
-print("After omitting NaN the output array is :")
+print("After omitting NaN the output array is:")
 print (a[~np.isnan(a)])
 
 
