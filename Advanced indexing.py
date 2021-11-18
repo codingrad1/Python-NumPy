@@ -40,7 +40,7 @@ print ('The array is:' )
 print (x )
 print ('\n')  
 
-# Now print the items greater than 5 
+# Now print the items greater than 4 
 print ('The items greater than 4 are:') 
 print (x[x > 4])
 
