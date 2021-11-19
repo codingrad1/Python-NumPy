@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
 # Example 1:
 # nditer object
 
@@ -19,8 +13,6 @@ print ('Modified array is:')
 for x in np.nditer(a):
    print (x)
 
-
-# In[12]:
 
 
 # Exmaple 2:
@@ -43,8 +35,6 @@ print ('Modified array is:')
 for x in np.nditer(b): 
    print (x)
 
-
-# In[19]:
 
 
 # Example 3:
@@ -77,8 +67,6 @@ for x in np.nditer(c):
    print (x)
 
 
-# In[21]:
-
 
 # Exmaple 4
 
@@ -100,9 +88,7 @@ for x in np.nditer(a, order = 'F'):
    print (x)
 
 
-# In[22]:
-
-
+   
 # Example 5:
 # Modifying Array Values
 
@@ -118,8 +104,6 @@ for x in np.nditer(a, op_flags = ['readwrite']):
 print ('Modified array is:')
 print (a)
 
-
-# In[24]:
 
 
 # Example 6:
@@ -137,8 +121,6 @@ print ('Modified array is:' )
 for x in np.nditer(a, flags = ['external_loop'], order = 'F'):
    print (x)
 
-
-# In[26]:
 
 
 # Example 7
@@ -160,10 +142,3 @@ print ('\n')
 print ('Modified array is:' )
 for x,y in np.nditer([a,b]): 
    print( "%d:%d" % (x,y))
-
-
-# In[ ]:
-
-
-
-
